@@ -42,7 +42,7 @@ function App() {
     } else if (value === "DEL") {
       setValue((prevValue) => prevValue.slice(0, -1));
     } else if (value === "%") {
-      setValue((prevValue) => (prevValue / value).toString());
+      setValue((prevValue) => (prevValue / 100).toString());
     } else {
       setValue((prevValue) => prevValue + value);
     }
