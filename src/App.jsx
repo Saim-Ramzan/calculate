@@ -4,28 +4,7 @@ import Button from "./component/Button";
 
 function App() {
   const [value, setValue] = useState("");
-  const values = [
-    "AC",
-    "%",
-    "DEL",
-    "/",
-    "7",
-    "8",
-    "9",
-    "*",
-    "4",
-    "5",
-    "6",
-    "-",
-    "1",
-    "2",
-    "3",
-    "+",
-    "00",
-    "0",
-    ".",
-    "=",
-  ];
+  const values = ["AC","%","DEL","/","7","8","9","*","4","5","6","-","1","2","3","+","00","0",".","=",];
 
   const evalute = () => {
     try {
